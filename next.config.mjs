@@ -10,6 +10,10 @@ const nextConfig = {
       },
     ],
   },
+  swcMinify: true,
+  experimental: {
+    optimizePackageImports: ["lucide-react", "react-icons"],
+  },
 };
 
 // Export using `export default`

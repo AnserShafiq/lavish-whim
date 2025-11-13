@@ -1,11 +1,14 @@
+'use client'
 import Image from 'next/image'
 import React from 'react'
 import SearchSection from './search-section';
 import CartButton from './cart-button';
 import { Menu } from '@/app/lib/menu-items';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 const Header = () => {
+      const router = useRouter()
       return (
             <div className={`flex flex-col relative w-full border-b shadow-sm shadow-neutral-100`}>
                   
@@ -19,7 +22,7 @@ const Header = () => {
                   <div className={`relative flex flex-col container`}>
                         <div className='grid grid-cols-3 items-center w-full'>
                               <SearchSection />
-                              <Image src='/images/logo.png' priority className='h-[6rem] w-auto mx-auto' height={500} width={500} alt='Lavish Whim - Logo'/>
+                              <Image onClick={() => router.replace('/')} src='/images/logo.png' priority className='h-[6rem] w-auto mx-auto' height={500} width={500} alt='Lavish Whim - Logo'/>
                               <CartButton />
                         </div>
                         <div className='flex items-center justify-center gap-12 w-full my-2'>

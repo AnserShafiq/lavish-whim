@@ -4,7 +4,9 @@ const item={
   id: '',
   title: '',
   qty: 0,
-  price: 0
+  price: 0,
+  onSale: '',
+  salePrice: 0,
 }
 
 const initialState = {
@@ -27,11 +29,19 @@ const cartSlice = createSlice({
       console.log(action.payload.id);
       state.items = state.items.filter(i => i.id === action.payload.id && i.qty > 1 ? (i.qty -= 1) : i.id !== action.payload.id); ;
     },
+    removeAllCountFromCart(state, action) {
+      console.log(action.payload.id);
+      state.items = state.items.filter(i => i.id !== action.payload.id); ;
+    },
+    increaseCountInCart(state, action) {
+      console.log(action.payload.id);
+      state.items = state.items.filter(i => i.id === action.payload.id ? (i.qty += 1): i.qty)
+    },
     clearCart(state) {
       state.items = [];
     },
   },
 });
 
-export const { addToCart, removeFromCart, clearCart } = cartSlice.actions;
+export const { addToCart, removeFromCart, clearCart, increaseCountInCart,removeAllCountFromCart } = cartSlice.actions;
 export default cartSlice.reducer;

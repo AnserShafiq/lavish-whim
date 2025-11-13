@@ -6,7 +6,7 @@ import 'react-quill/dist/quill.snow.css'
 const ReactQuill = dynamic(() => import('react-quill'), { ssr: false })
 
 const AddProduct = () => {
-  const [productData, setProductData] = useState({ title: '', category: '', price: '', images: [], colors: [], bestSelling: 'false', gender: '', description: '' })
+  const [productData, setProductData] = useState({ title: '', category: '', type:'', price: '', images: [], colors: [], bestSelling: 'false', gender: '', description: '', onSale: 'false', salePrice: '' })
   const [newColor, setNewColor] = useState('')
   const handleFileEntry = (e) => {
     const newFiles = Array.from(e.target.files)
@@ -32,17 +32,20 @@ const AddProduct = () => {
       title: productData.title, 
       price: productData.price, 
       category: productData.category, 
+      type: productData.type, 
       images: data, 
       colors: productData.colors, 
       bestSelling: productData.bestSelling, 
       gender: productData.gender,
-      description: productData.description
+      description: productData.description,
+      onSale: productData.onSale,
+      salePrice: productData.salePrice
     }
     const check = await fetch('/api/json-data/addition-of-product', { method: 'POST', body: JSON.stringify(finalProduct) }).then(res => res.json())
 
     if (check === 'Success') {
       alert('Product added successfully!')
-      setProductData({ title: '', category: '', price: '', images: [], colors: [], bestSelling: 'false', gender: '', description: '' })
+      setProductData({ title: '', category: '', type:'', price: '', images: [], colors: [], bestSelling: 'false', gender: '', description: '', onSale: 'false', salePrice: '' })
     }
   }
 
@@ -72,17 +75,53 @@ const AddProduct = () => {
             <option value=''>Select category</option>
             <option value='jewellery-set'>Jewellery Set</option>
             <option value='bags'>Bags</option>
+          </select>
+        </div>
+        
+        {
+          productData.category === 'bags' ? <div className='flex flex-col gap-1'>
+          <label>Bag Type</label>
+          <select className='border rounded px-2 py-1' required value={productData.type} onChange={e => setProductData(prev => ({ ...prev, type: e.target.value }))}>
+            <option value=''>Select bag type</option>
+            <option value='handbag'>Handbag</option>
+            <option value='crossbody-bag'>Crossbody bag</option>
+            <option value='tote-bag'>Tote bag</option>
+            <option value='shoulder-bag'>Shoulder bag</option>
+            <option value='canvas-bag'>Canvas bag</option>
+            <option value='bridal-bag'>Bridal bag</option>
+          </select>
+        </div> : productData.category === 'jewellery' ? <div className='flex flex-col gap-1'>
+          <label>Jewellery Type</label>
+          <select className='border rounded px-2 py-1' required value={productData.type} onChange={e => setProductData(prev => ({ ...prev, type: e.target.value }))}>
+            <option value=''>Select jewellery type</option>
+            <option value='jewellery-sets'>Jewellery Sets</option>
             <option value='earings'>Earings</option>
             <option value='pendants'>Pendants</option>
             <option value='rings'>Rings</option>
-            <option value='bracelets-&-bangles'>Bracelets & Bangles</option>
+            <option value='bracelets-and-bangles'>Bracelets & bangles</option>
           </select>
-        </div>
+        </div> : null
+        }
 
         {/* Price */}
         <div className='flex flex-col gap-1'>
           <label>Product Price</label>
           <input type='number' required className='border rounded px-2 py-1' value={productData.price} onChange={e => setProductData(prev => ({ ...prev, price: e.target.value }))} />
+        </div>
+
+        {/* Sale */}
+        <div className='flex flex-col'>
+          <label>Is product having any sale?</label>
+          <div className='flex items-center gap-4'>
+            <label className='cursor-pointer flex items-center gap-1'><input type='radio' name='onSale' checked={productData.onSale === 'true'} onChange={() => setProductData(prev => ({ ...prev, onSale: 'true' }))} /> Yes</label>
+            <label className='cursor-pointer flex items-center gap-1'><input type='radio' name='onSale' checked={productData.onSale === 'false'} onChange={() => setProductData(prev => ({ ...prev, onSale: 'false' }))} /> No</label>
+          </div>
+        </div>
+        
+        {/* On Sale */}
+        <div className='flex flex-col gap-1'>
+          <label>On Sale Price</label>
+          <input type='number' required={productData.onSale === 'yes' ? true: false} className='border rounded px-2 py-1' value={productData.salePrice} onChange={e => setProductData(prev => ({ ...prev, salePrice: e.target.value }))} />
         </div>
 
         {/* Images */}
@@ -156,6 +195,9 @@ const AddProduct = () => {
           <label className='font-medium mb-2'>Description</label>
           <ReactQuill theme='snow' required value={productData.description} onChange={(value) => setProductData((prev) => ({ ...prev, description: value }))} modules={modules} placeholder='Write detailed product description here...'/>
         </div>
+
+
+
 
         <button type='submit' className='bg-black w-fit mx-auto hover:bg-gray-900 text-white px-3 py-2 rounded font-medium'>Submit</button>
       </form>

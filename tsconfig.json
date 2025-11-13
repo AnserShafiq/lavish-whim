@@ -7,7 +7,7 @@
     ],
     "baseUrl": "src",
     "paths": {
-      "@/*": ["*"]
+      "@/*": ["/*"]
     },
     "allowJs": true,
     "skipLibCheck": true,

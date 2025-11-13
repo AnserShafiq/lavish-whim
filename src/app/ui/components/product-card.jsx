@@ -1,24 +1,23 @@
-'use client'
-import Image from "next/image";
-import { useState } from "react";
-import ProductDetailsPopUp from './product-details-popup'
+'use client';
+import Image from 'next/image';
+import { useState } from 'react';
+import ProductDetailsPopUp from './product-details-popup';
+
 function formatPKR(num) {
-  return new Intl.NumberFormat('en-PK', {
-    style: 'decimal',
-    minimumFractionDigits: 0,
-  }).format(num);
+  return new Intl.NumberFormat('en-PK', { style: 'decimal', minimumFractionDigits: 0 }).format(num);
 }
+
 export default function ProductCard({ product }) {
   const [isHovered, setIsHovered] = useState(false);
   const hasHoverImg = product.images[1] !== undefined;
-
-  const defaultImg = `${product.images[0]}`;
-  const hoverImg = `${product.images[1]}` ?? defaultImg; // fallback
+  const defaultImg = product.images[0];
+  const hoverImg = product.images[1] ?? defaultImg;
 
   return (
-    <div className="border rounded-sm shadow-sm flex flex-col overflow-hidden">
+    <div className="flex flex-col border rounded-sm shadow-sm overflow-hidden h-full">
+      {/* ---------- IMAGE ---------- */}
       <div
-        className="relative h-[21rem] max-h-[21rem] overflow-hidden border-b border-neutral-200 w-full cursor-pointer"
+        className="relative h-[21rem] w-full cursor-pointer overflow-hidden"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -26,37 +25,42 @@ export default function ProductCard({ product }) {
           src={isHovered && hasHoverImg ? hoverImg : defaultImg}
           alt={product.title}
           fill
-          className="object-cover object-center rounded-t-sm hover:scale-[1.05] transition-all ease-in-out duration-300"
+          className="object-cover object-center transition-transform duration-300 hover:scale-105"
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
         />
-
         {product.onSale === 'true' && (
-          <h5 className="absolute bottom-5 left-4 py-1 px-2 rounded-xl bg-neutral-700 text-white text-xs font-extrabold uppercase tracking-wide">
+          <span className="absolute bottom-4 left-4 bg-neutral-700 text-white text-xs font-extrabold uppercase tracking-wide rounded-xl px-2 py-1">
             Sale
-          </h5>
+          </span>
         )}
       </div>
 
-      <div className="flex flex-col gap-2 p-6">
-            <h3 className="text-lg font-bold hover:underline cursor-pointer tracking-wide capitalize">
-            {product.title}
-            </h3>
+      {/* ---------- CONTENT (flex-grow + button at bottom) ---------- */}
+      <div className="flex flex-col justify-between flex-grow p-4 gap-3">
+        {/* Title */}
+        <h3 className="line-clamp-2 text-lg font-bold capitalize tracking-wide hover:underline cursor-pointer">
+          {product.title}
+        </h3>
 
+        <div className="mt-auto">
+          <div className="flex items-end gap-2">
             {product.onSale === 'true' ? (
-            <div className="inline-flex items-end gap-3">
-                  <h3 className="text-sm mb-[2px] line-through">
+              <>
+                <span className="text-sm line-through text-gray-500">
                   Rs. {formatPKR(product.price)} PKR
-                  </h3>
-                  <h3 className="text-lg font-semibold">
+                </span>
+                <span className="text-lg font-semibold text-red-600">
                   Rs. {formatPKR(product.salePrice)} PKR
-                  </h3>
-            </div>
+                </span>
+              </>
             ) : (
-            <h3 className="text-lg font-semibold">
-                  Rs. {formatPKR(product.price)} PKR
-            </h3>
+              <span className="text-lg font-semibold">
+                Rs. {formatPKR(product.price)} PKR
+              </span>
             )}
-            <ProductDetailsPopUp product={product}/>
+          </div>
+          <ProductDetailsPopUp product={product} />
+        </div>
       </div>
     </div>
   );

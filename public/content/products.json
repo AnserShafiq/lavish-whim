@@ -3,7 +3,7 @@
     "product_id": "7883519506",
     "title": "3 Pieces Tassel Ladies Bags Handbag Set",
     "price": "1799",
-    "category": "bags",
+    "category": "bags", "type":"handbag",
     "images": [
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/3_pieces_tassel_ladies_bags_handbag_set-bags-1.png",
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/3_pieces_tassel_ladies_bags_handbag_set-bags-2.png"
@@ -13,14 +13,16 @@
       "Black"
     ],
     "bestSelling": "false",
-    "gender": "male", "onSale":"","salePrice":"1200",
+    "gender": "male",
+    "onSale": "",
+    "salePrice": "1200",
     "description": "<p><strong>1. Premium Quality &amp; Everyday Comfort</strong></p><p>Crafted from durable materials with reinforced stitching, this handbag offers exceptional strength and longevity. The strong yet soft handles provide reliable grip, and its lightweight design ensures all-day comfort — perfect for both work and casual outings.</p>"
   },
   {
     "product_id": "2676477307",
     "title": "Designer Style Women's Large Capacity Handbag ZTS-CR-066",
     "price": "1799",
-    "category": "bags",
+    "category": "bags", "type":"handbag",
     "images": [
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/designer_style_women_s_large_capacity_handbag_zts_cr_066-bags-1.png",
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/designer_style_women_s_large_capacity_handbag_zts_cr_066-bags-2.png",
@@ -31,14 +33,16 @@
       "Black"
     ],
     "bestSelling": "false",
-    "gender": "male","onSale":"","salePrice":"1200",
+    "gender": "male",
+    "onSale": "",
+    "salePrice": "1200",
     "description": "<p><strong>1. Premium Quality &amp; Everyday Comfort</strong></p><p>Crafted from durable materials with reinforced stitching, this handbag offers exceptional strength and longevity. The strong yet soft handles provide reliable grip, and its lightweight design ensures all-day comfort — perfect for both work and casual outings.</p>"
   },
   {
     "product_id": "1027156081",
-    "title": "Hijabi canvus bag",
+    "title": "Hijabi canvas bag",
     "price": "2000",
-    "category": "bags",
+    "category": "bags", "type":"canvas-bag",
     "images": [
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/hijabi_canvus_bag-bags-1.jpg",
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/hijabi_canvus_bag-bags-2.jpg",
@@ -58,14 +62,16 @@
       "Floral"
     ],
     "bestSelling": "false",
-    "gender": "female","onSale":"","salePrice":"1200",
+    "gender": "female",
+    "onSale": "",
+    "salePrice": "1200",
     "description": "<p><strong>Hijab Girl Red Canvas Tote Bag – Stylish, Durable &amp; Versatile</strong></p><p><br></p><p>Elevate your daily essentials with our Hijab Girl Red Canvas Tote Bag, a harmonious combination of fashion and practicality. Crafted from premium, environmentally-friendly material, this tote boasts sturdiness and sophistication. Its roomy interior accommodates all your must-haves—laptop, books, or —making it ideal for office, trips, errands, or leisurely excursions.</p><p><br></p><p><strong>Measurements:&nbsp;</strong></p><p>Width : 14 \" , Length : 11 \" , Depth : 4.\"</p><p><strong>&nbsp;</strong></p><p><strong>Features:</strong></p><p><strong>✔&nbsp;Premium Quality:</strong>&nbsp;Crafted from durable, lightweight material for long-lasting use.</p><p>✔&nbsp;<strong>Spacious &amp; Practical:</strong>&nbsp;Ample room for daily essentials with sturdy handles for comfortable carrying.</p><p>✔&nbsp;<strong>Minimalist &amp; Chic:</strong>&nbsp;Classic Red design pairs effortlessly with any outfit.</p><p>✔&nbsp;<strong>Eco-Friendly Choice:</strong>&nbsp;Reusable and sustainable alternative to plastic bags.</p><p><br></p><p>Perfect for those who value style, convenience, and sustainability. Add this&nbsp;<strong>Black Tote Bag</strong>&nbsp;to your collection today!&nbsp;🖤</p>"
   },
   {
     "product_id": "2448528031",
-    "title": "P000787 Trendy Armpit Ladies Hand Bag - HBGP",
+    "title": "P000787 Trendy Armpit Ladies Handbag - HBGP",
     "price": "1600",
-    "category": "bags",
+    "category": "bags", "type":"handbag",
     "images": [
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/p000787_trendy_armpit_ladies_hand_bag___hbgp-bags-1.png",
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/p000787_trendy_armpit_ladies_hand_bag___hbgp-bags-2.png",
@@ -83,7 +89,32 @@
       "Black"
     ],
     "bestSelling": "true",
-    "gender": "female","onSale":"true","salePrice":"1200",
+    "gender": "female",
+    "onSale": "true",
+    "salePrice": "1200",
     "description": "<p><strong>Delivery charges (DC) will be added separately</strong></p><p><br></p><p><strong>Material Type:</strong> PU</p><p><strong>Weight:</strong> 170g</p><p><strong>Height:</strong> 4.5 Inch&nbsp;</p><p><strong>Length:</strong> 9 Inch&nbsp;</p><p><strong>Width:</strong> 2.8 Inch&nbsp;</p><p><strong>Pattern:</strong> Trendy Ladies Hand bag</p><p><strong>Type:</strong> Casual/Formal/Party</p><p><strong>Package Included:</strong> 1 x Piece of Bag,</p>"
+  },
+  {
+    "product_id": "4407307522",
+    "title": "Chic Structured Top-Handle Bag",
+    "price": "4029",
+    "category": "bags", "type":"handbag",
+    "images": [
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/chic_structured_top_handle_bag-bags-1.jpg",
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/chic_structured_top_handle_bag-bags-2.jpg",
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/chic_structured_top_handle_bag-bags-3.jpg",
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/chic_structured_top_handle_bag-bags-4.png"
+    ],
+    "colors": [
+      "gray",
+      "brown",
+      "white",
+      "beige"
+    ],
+    "bestSelling": "true",
+    "gender": "female",
+    "description": "<p>This sophisticated,&nbsp;<strong>medium-sized satchel handbag</strong>&nbsp;is presented in a versatile&nbsp;<strong>taupe-grey colour</strong>&nbsp;with a smooth yet durable Saffiano-like texture, making it a perfect choice for professional and everyday use. Its structured silhouette, accented by clean stitching and subtle&nbsp;<strong>silver-tone hardware</strong>, including a sleek rectangular clasp and buckle detailing, projects a polished and modern aesthetic.</p>",
+    "onSale": "true",
+    "salePrice": "3500"
   }
 ]
