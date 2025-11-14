@@ -9,19 +9,19 @@ const Footer = () => {
   const products = [
     {
       title: 'Handbags',
-      link: '/'
+      link: '/bags-by-lavish-whim?category=handbag'
     },{
       title: 'Canvas bags',
-      link: '/'
+      link: '/bags-by-lavish-whim?category=canvas-bag'
     },{
       title: 'Crossbody bags',
-      link: '/'
+      link: '/bags-by-lavish-whim?category=crossbody-bag'
     },{
       title: 'Tote bags',
-      link: '/'
+      link: '/bags-by-lavish-whim?category=tote-bag'
     },{
       title: 'Shoulder bags',
-      link: '/'
+      link: '/bags-by-lavish-whim?category=shoulder-bag'
     },
   ]
   const quickLinks = [

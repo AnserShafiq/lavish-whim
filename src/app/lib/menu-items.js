@@ -5,15 +5,15 @@ export const Menu = [
       },
       {
             title: 'bags',
-            link: '/',
+            link: '/bags-by-lavish-whim',
       },
       {
             title: 'jewellery',
-            link: '/',
+            link: '/jewlellery-by-lavish-whim',
       },
       {
             title: 'about us',
-            link: '/',
+            link: '/about-lavish-whim',
       },
       
 ]
