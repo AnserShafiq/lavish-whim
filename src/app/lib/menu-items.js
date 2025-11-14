@@ -4,11 +4,11 @@ export const Menu = [
             link: '/',
       },
       {
-            title: 'jewellery',
+            title: 'bags',
             link: '/',
       },
       {
-            title: 'bags',
+            title: 'jewellery',
             link: '/',
       },
       {

@@ -20,7 +20,7 @@ const Header = () => {
                         </div>
                   </div>
                   <div className={`relative flex flex-col container`}>
-                        <div className='grid grid-cols-3 items-center w-full'>
+                        <div className='grid grid-cols-3 items-center py-2 w-full'>
                               <SearchSection />
                               <Image onClick={() => router.replace('/')} src='/images/logo.png' priority className='h-[6rem] cursor-pointer w-auto mx-auto' height={500} width={500} alt='Lavish Whim - Logo'/>
                               <CartButton />
