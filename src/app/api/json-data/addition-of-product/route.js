@@ -1,9 +1,9 @@
 import * as fs from 'fs';
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import path from 'path';
 
-function createProductId(existingData: any[] = []) {
-  let newId: string;
+function createProductId(existingData = []) {
+  let newId;
   const existingIds = new Set(existingData.map(item => item.id));
 
   do {
@@ -13,7 +13,7 @@ function createProductId(existingData: any[] = []) {
   return newId;
 }
 
-export async function POST(req:NextRequest) {
+export async function POST(req) {
       try {
             const data= await req.json();
             // console.log('data from frontend: ', data)

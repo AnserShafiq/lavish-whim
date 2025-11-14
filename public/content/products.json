@@ -3,7 +3,8 @@
     "product_id": "7883519506",
     "title": "3 Pieces Tassel Ladies Bags Handbag Set",
     "price": "1799",
-    "category": "bags", "type":"handbag",
+    "category": "bags",
+    "type": "handbag",
     "images": [
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/3_pieces_tassel_ladies_bags_handbag_set-bags-1.png",
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/3_pieces_tassel_ladies_bags_handbag_set-bags-2.png"
@@ -22,7 +23,8 @@
     "product_id": "2676477307",
     "title": "Designer Style Women's Large Capacity Handbag ZTS-CR-066",
     "price": "1799",
-    "category": "bags", "type":"handbag",
+    "category": "bags",
+    "type": "handbag",
     "images": [
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/designer_style_women_s_large_capacity_handbag_zts_cr_066-bags-1.png",
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/designer_style_women_s_large_capacity_handbag_zts_cr_066-bags-2.png",
@@ -42,7 +44,8 @@
     "product_id": "1027156081",
     "title": "Hijabi canvas bag",
     "price": "2000",
-    "category": "bags", "type":"canvas-bag",
+    "category": "bags",
+    "type": "canvas-bag",
     "images": [
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/hijabi_canvus_bag-bags-1.jpg",
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/hijabi_canvus_bag-bags-2.jpg",
@@ -71,7 +74,8 @@
     "product_id": "2448528031",
     "title": "P000787 Trendy Armpit Ladies Handbag - HBGP",
     "price": "1600",
-    "category": "bags", "type":"handbag",
+    "category": "bags",
+    "type": "handbag",
     "images": [
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/p000787_trendy_armpit_ladies_hand_bag___hbgp-bags-1.png",
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/p000787_trendy_armpit_ladies_hand_bag___hbgp-bags-2.png",
@@ -98,7 +102,8 @@
     "product_id": "4407307522",
     "title": "Chic Structured Top-Handle Bag",
     "price": "4029",
-    "category": "bags", "type":"handbag",
+    "category": "bags",
+    "type": "handbag",
     "images": [
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/chic_structured_top_handle_bag-bags-1.jpg",
       "https://darkslategray-zebra-963297.hostingersite.com/products-images/chic_structured_top_handle_bag-bags-2.jpg",
@@ -116,5 +121,81 @@
     "description": "<p>This sophisticated,&nbsp;<strong>medium-sized satchel handbag</strong>&nbsp;is presented in a versatile&nbsp;<strong>taupe-grey colour</strong>&nbsp;with a smooth yet durable Saffiano-like texture, making it a perfect choice for professional and everyday use. Its structured silhouette, accented by clean stitching and subtle&nbsp;<strong>silver-tone hardware</strong>, including a sleek rectangular clasp and buckle detailing, projects a polished and modern aesthetic.</p>",
     "onSale": "true",
     "salePrice": "3500"
+  },
+  {
+    "product_id": "1770302273",
+    "title": "Premium BGHPK Handbag",
+    "price": "4049",
+    "category": "bags",
+    "type": "handbag",
+    "images": [
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/premium_bghpk_handbag-bags-1.jpg",
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/premium_bghpk_handbag-bags-2.jpg",
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/premium_bghpk_handbag-bags-3.jpg",
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/premium_bghpk_handbag-bags-4.png"
+    ],
+    "colors": [
+      "purple",
+      "pink",
+      "brown",
+      "black"
+    ],
+    "bestSelling": "false",
+    "gender": "female",
+    "description": "<p>Crafted from what appears to be&nbsp;<strong>high-quality, smooth faux or genuine leather</strong>, the bag features precise stitching, a&nbsp;<strong>subtly curved central seam</strong>, and gleaming&nbsp;<strong>silver-tone hardware</strong>&nbsp;accents that secure the handles and highlight the delicate script logo centered on the front.</p><p><br></p><p>The&nbsp;<strong>new-in-store presentation</strong>&nbsp;is emphasized by the clear protective plastic wrap still covering the rolled handle, suggesting the item is&nbsp;<strong>pristine and unboxed</strong>, ready to be a versatile centerpiece for both&nbsp;<strong>professional business attire</strong>&nbsp;and&nbsp;<strong>chic weekend ensembles</strong>.</p>",
+    "onSale": "false",
+    "salePrice": ""
+  },
+  {
+    "product_id": "1712621757",
+    "title": "The Signature Quilted Tote: Stylish Shoulder Bag for Women",
+    "price": "4099",
+    "category": "bags",
+    "type": "tote-bag",
+    "images": [
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/the_signature_quilted_tote__stylish_shoulder_bag_for_women-bags-1.jpg",
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/the_signature_quilted_tote__stylish_shoulder_bag_for_women-bags-2.jpg",
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/the_signature_quilted_tote__stylish_shoulder_bag_for_women-bags-3.jpg",
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/the_signature_quilted_tote__stylish_shoulder_bag_for_women-bags-4.png"
+    ],
+    "colors": [
+      "purple",
+      "gray",
+      "red",
+      "pink"
+    ],
+    "bestSelling": "false",
+    "gender": "female",
+    "description": "<p>This photograph showcases a striking&nbsp;<strong>pink handbag</strong>, a piece of craftsmanship that seamlessly blends&nbsp;<strong>classic structure with a modern, feminine palette</strong>. The bag is positioned centrally, resting on a smooth, circular table of the exact same delicate&nbsp;<strong>pastel pink</strong>&nbsp;shade, creating a harmonious and aesthetically pleasing monochrome foreground.</p><p><br></p><p>The most immediately captivating feature is the bag's&nbsp;<strong>bubblegum or baby pink</strong>&nbsp;color, a hue that is both cheerful and sophisticated. The material appears to be a high-quality&nbsp;<strong>faux leather or PU leather</strong>, meticulously finished to hold its shape perfectly. The entire front panel, and likely the back, is adorned with a precise&nbsp;<strong>quilted pattern</strong>. This quilting forms a series of small, neat squares, stitched with a lighter-colored thread that provides a subtle texture and depth without being overly busy. This detail adds a touch of&nbsp;<strong>timeless elegance and luxury</strong>, reminiscent of high-end designer</p>",
+    "onSale": "false",
+    "salePrice": ""
+  },
+  {
+    "product_id": "1183029766",
+    "title": "Elegant Top Handle Crossbody Bag",
+    "price": "3100",
+    "category": "bags",
+    "type": "crossbody-bag",
+    "images": [
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/elegant_top_handle_crossbody_bag-bags-1.png",
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/elegant_top_handle_crossbody_bag-bags-2.png",
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/elegant_top_handle_crossbody_bag-bags-3.jpg",
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/elegant_top_handle_crossbody_bag-bags-4.jpg",
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/elegant_top_handle_crossbody_bag-bags-5.png",
+      "https://darkslategray-zebra-963297.hostingersite.com/products-images/elegant_top_handle_crossbody_bag-bags-6.jpg"
+    ],
+    "colors": [
+      "beige",
+      "black",
+      "red",
+      "gray",
+      "purple",
+      "pink"
+    ],
+    "bestSelling": "false",
+    "gender": "female",
+    "description": "<p>Discover the epitome of sophistication with the LAVISWHIM Structured Top-Handle Handbag. Crafted for the modern connoisseur, this exquisite piece blends timeless design with contemporary allure. Its sleek silhouette and refined lines speak volumes of understated luxury.</p><p><br></p><p>Experience unparalleled elegance with every detail. The luxurious exterior, available in a palette of captivating hues, from classic Black and rich Brown to vibrant Red, serene Purple, and chic Skin tone. Each shade is meticulously chosen to complement your unique style.</p><p><br></p><p>A distinctive silver-tone clover clasp secures your essentials with a touch of charm. The sturdy top handle offers a classic carry, while the included detachable shoulder strap provides versatile styling for hands-free convenience.</p><p>Perfect for the boardroom, a sophisticated dinner, or an elegant day out. LAVISWHIM handbags are more than just accessories; they are a statement. An embodiment of grace, quality, and effortless chic. Indulge in the artistry of LAVISWHIM. Where luxury meets everyday functionality. Define your elegance. Define your LAVISWHIM.</p>",
+    "onSale": "false",
+    "salePrice": ""
   }
 ]

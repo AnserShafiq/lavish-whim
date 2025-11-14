@@ -1,9 +1,9 @@
 import React from 'react'
 
-const SectionHead1 = ({children}) => {
+const SectionHead1 = ({children, className}) => {
   return (
-      <h2 className='text-3xl font-semibold italic underline underline-offset-4'>
-            {children}
+      <h2 className={`text-3xl ${className}`}>
+        {children}
       </h2>
   )
 }

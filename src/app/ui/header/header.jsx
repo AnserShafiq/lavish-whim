@@ -22,7 +22,7 @@ const Header = () => {
                   <div className={`relative flex flex-col container`}>
                         <div className='grid grid-cols-3 items-center w-full'>
                               <SearchSection />
-                              <Image onClick={() => router.replace('/')} src='/images/logo.png' priority className='h-[6rem] w-auto mx-auto' height={500} width={500} alt='Lavish Whim - Logo'/>
+                              <Image onClick={() => router.replace('/')} src='/images/logo.png' priority className='h-[6rem] cursor-pointer w-auto mx-auto' height={500} width={500} alt='Lavish Whim - Logo'/>
                               <CartButton />
                         </div>
                         <div className='flex items-center justify-center gap-12 w-full my-2'>

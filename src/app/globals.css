@@ -18,7 +18,15 @@ body{
   font-family: var(--nunito-font);
 }
 .container{
-  max-width: 80vw;
+  max-width: 75vw;
   width: 100%;
   margin-inline:auto;
+}
+
+@media (min-width: 1300px) AND (max-width: 1700px) {
+    .container{
+      max-width: 85vw;
+      width: 100%;
+      margin-inline:auto;
+    }
 }
